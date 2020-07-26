@@ -1,0 +1,16 @@
+<div style="text-align: center;"> 
+      <h1>  
+        Example of Fetching data using Promise    
+      </h1>  
+      <div>  
+        <h2>  
+        Name Search  
+        </h2> 
+        <input #term type="text" (keyup)="searchCountryUsingPromise(term.value)">  
+        <div> 
+          <li *ngFor="let result of country">  
+            {{result.name}}  
+          </li> 
+        </div>  
+      </div>  
+    </div>  

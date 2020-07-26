@@ -1,0 +1,20 @@
+<div style="text-align: center;">  
+        <h1>  
+ 
+        Example of Fetching data using Observable  
+     
+      </h1>  
+     
+      <div>  
+     
+        <h2>  
+           Name Search  
+        </h2>  
+        <input type="text" [formControl]="term">  
+        <div>  
+          <li *ngFor="let result of country">  
+            {{result.name}}  
+          </li>  
+        </div>  
+      </div>  
+    </div> 
